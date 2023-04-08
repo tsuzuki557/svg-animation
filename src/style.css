@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.ball {
+  fill:#571135;
+}
+
+.wire {
+  fill: none;
+}
+
+.wire, .ball {
+  stroke-width:8px;
+  stroke: #f39;
+  stroke-linecap:round;
+}
